@@ -25,7 +25,7 @@ Features
 Secure login-logout
 User Friendly
 Razorpay Payment Gateway
-![Image1](https://github.com/arghosh9/payment-gateway-app/blob/master/Screenshot (7).png)
-![Image2](https://github.com/arghosh9/payment-gateway-app/blob/master/Screenshot (10).png)
-![Image3](https://github.com/arghosh9/payment-gateway-app/blob/master/Screenshot (13).png)
-![Image4](https://github.com/arghosh9/payment-gateway-app/blob/master/Screenshot (15).png)
+![Image1](https://github.com/arghosh9/payment-gateway-app/blob/master/Screenshot%20(7).png)
+![Image2](https://github.com/arghosh9/payment-gateway-app/blob/master/Screenshot%20(10).png)
+![Image3](https://github.com/arghosh9/payment-gateway-app/blob/master/Screenshot%20(13).png)
+![Image4](https://github.com/arghosh9/payment-gateway-app/blob/master/Screenshot%20(15).png)
