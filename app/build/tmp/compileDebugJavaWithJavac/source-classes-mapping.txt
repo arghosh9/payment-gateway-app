@@ -1,0 +1,5 @@
+com/example/regalepayment/MainActivity.java
+ com.example.regalepayment.MainActivity
+ com.example.regalepayment.MainActivity$1
+com/example/regalepayment/BuildConfig.java
+ com.example.regalepayment.BuildConfig

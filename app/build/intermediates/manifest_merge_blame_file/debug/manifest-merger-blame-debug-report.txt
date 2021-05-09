@@ -1,0 +1,130 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.regalepayment"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->D:\AndroidApp\PaymentApp\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->D:\AndroidApp\PaymentApp\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->[com.razorpay:checkout:1.6.6] C:\Users\ASUS VivoBook\.gradle\caches\transforms-2\files-2.1\2e32450581a7bfdb693ea322d7b38e68\jetified-checkout-1.6.6\AndroidManifest.xml:9:5-67
+11-->[com.razorpay:checkout:1.6.6] C:\Users\ASUS VivoBook\.gradle\caches\transforms-2\files-2.1\2e32450581a7bfdb693ea322d7b38e68\jetified-checkout-1.6.6\AndroidManifest.xml:9:22-64
+12
+13    <application
+13-->D:\AndroidApp\PaymentApp\app\src\main\AndroidManifest.xml:5:5-22:19
+14        android:allowBackup="true"
+14-->D:\AndroidApp\PaymentApp\app\src\main\AndroidManifest.xml:6:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.3.1] C:\Users\ASUS VivoBook\.gradle\caches\transforms-2\files-2.1\8dbd859d1cd89239b42e7382b4fc40d7\core-1.3.1\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->D:\AndroidApp\PaymentApp\app\src\main\AndroidManifest.xml:7:9-43
+18        android:label="@string/app_name"
+18-->D:\AndroidApp\PaymentApp\app\src\main\AndroidManifest.xml:8:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->D:\AndroidApp\PaymentApp\app\src\main\AndroidManifest.xml:9:9-54
+20        android:supportsRtl="true"
+20-->D:\AndroidApp\PaymentApp\app\src\main\AndroidManifest.xml:10:9-35
+21        android:testOnly="true"
+22        android:theme="@style/Theme.RegalePayment" >
+22-->D:\AndroidApp\PaymentApp\app\src\main\AndroidManifest.xml:11:9-51
+23        <activity android:name="com.example.regalepayment.MainActivity" >
+23-->D:\AndroidApp\PaymentApp\app\src\main\AndroidManifest.xml:12:9-18:20
+23-->D:\AndroidApp\PaymentApp\app\src\main\AndroidManifest.xml:12:19-47
+24            <intent-filter>
+24-->D:\AndroidApp\PaymentApp\app\src\main\AndroidManifest.xml:13:13-17:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->D:\AndroidApp\PaymentApp\app\src\main\AndroidManifest.xml:14:17-69
+25-->D:\AndroidApp\PaymentApp\app\src\main\AndroidManifest.xml:14:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->D:\AndroidApp\PaymentApp\app\src\main\AndroidManifest.xml:16:17-77
+27-->D:\AndroidApp\PaymentApp\app\src\main\AndroidManifest.xml:16:27-74
+28            </intent-filter>
+29        </activity>
+30
+31        <meta-data
+31-->D:\AndroidApp\PaymentApp\app\src\main\AndroidManifest.xml:19:9-21:54
+32            android:name="com.razorpay.ApiKey"
+32-->D:\AndroidApp\PaymentApp\app\src\main\AndroidManifest.xml:20:13-47
+33            android:value="rzp_test_k7zCiVVf2jAvd2" />
+33-->D:\AndroidApp\PaymentApp\app\src\main\AndroidManifest.xml:21:13-52
+34
+35        <receiver android:name="com.razorpay.RzpTokenReceiver" >
+35-->[com.razorpay:checkout:1.6.6] C:\Users\ASUS VivoBook\.gradle\caches\transforms-2\files-2.1\2e32450581a7bfdb693ea322d7b38e68\jetified-checkout-1.6.6\AndroidManifest.xml:12:9-16:20
+35-->[com.razorpay:checkout:1.6.6] C:\Users\ASUS VivoBook\.gradle\caches\transforms-2\files-2.1\2e32450581a7bfdb693ea322d7b38e68\jetified-checkout-1.6.6\AndroidManifest.xml:12:19-63
+36            <intent-filter>
+36-->[com.razorpay:checkout:1.6.6] C:\Users\ASUS VivoBook\.gradle\caches\transforms-2\files-2.1\2e32450581a7bfdb693ea322d7b38e68\jetified-checkout-1.6.6\AndroidManifest.xml:13:13-15:29
+37                <action android:name="rzp.device_token.share" />
+37-->[com.razorpay:checkout:1.6.6] C:\Users\ASUS VivoBook\.gradle\caches\transforms-2\files-2.1\2e32450581a7bfdb693ea322d7b38e68\jetified-checkout-1.6.6\AndroidManifest.xml:14:17-65
+37-->[com.razorpay:checkout:1.6.6] C:\Users\ASUS VivoBook\.gradle\caches\transforms-2\files-2.1\2e32450581a7bfdb693ea322d7b38e68\jetified-checkout-1.6.6\AndroidManifest.xml:14:25-62
+38            </intent-filter>
+39        </receiver>
+40
+41        <activity
+41-->[com.razorpay:checkout:1.6.6] C:\Users\ASUS VivoBook\.gradle\caches\transforms-2\files-2.1\2e32450581a7bfdb693ea322d7b38e68\jetified-checkout-1.6.6\AndroidManifest.xml:18:9-29:20
+42            android:name="com.razorpay.CheckoutActivity"
+42-->[com.razorpay:checkout:1.6.6] C:\Users\ASUS VivoBook\.gradle\caches\transforms-2\files-2.1\2e32450581a7bfdb693ea322d7b38e68\jetified-checkout-1.6.6\AndroidManifest.xml:19:13-57
+43            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+43-->[com.razorpay:checkout:1.6.6] C:\Users\ASUS VivoBook\.gradle\caches\transforms-2\files-2.1\2e32450581a7bfdb693ea322d7b38e68\jetified-checkout-1.6.6\AndroidManifest.xml:20:13-83
+44            android:theme="@style/CheckoutTheme" >
+44-->[com.razorpay:checkout:1.6.6] C:\Users\ASUS VivoBook\.gradle\caches\transforms-2\files-2.1\2e32450581a7bfdb693ea322d7b38e68\jetified-checkout-1.6.6\AndroidManifest.xml:21:13-49
+45            <intent-filter>
+45-->[com.razorpay:checkout:1.6.6] C:\Users\ASUS VivoBook\.gradle\caches\transforms-2\files-2.1\2e32450581a7bfdb693ea322d7b38e68\jetified-checkout-1.6.6\AndroidManifest.xml:22:13-28:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->D:\AndroidApp\PaymentApp\app\src\main\AndroidManifest.xml:14:17-69
+46-->D:\AndroidApp\PaymentApp\app\src\main\AndroidManifest.xml:14:25-66
+47
+48                <data
+48-->[com.razorpay:checkout:1.6.6] C:\Users\ASUS VivoBook\.gradle\caches\transforms-2\files-2.1\2e32450581a7bfdb693ea322d7b38e68\jetified-checkout-1.6.6\AndroidManifest.xml:25:17-27:47
+49                    android:host="rzp.io"
+49-->[com.razorpay:checkout:1.6.6] C:\Users\ASUS VivoBook\.gradle\caches\transforms-2\files-2.1\2e32450581a7bfdb693ea322d7b38e68\jetified-checkout-1.6.6\AndroidManifest.xml:26:21-42
+50                    android:scheme="io.rzp" />
+50-->[com.razorpay:checkout:1.6.6] C:\Users\ASUS VivoBook\.gradle\caches\transforms-2\files-2.1\2e32450581a7bfdb693ea322d7b38e68\jetified-checkout-1.6.6\AndroidManifest.xml:27:21-44
+51            </intent-filter>
+52        </activity>
+53        <activity
+53-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\ASUS VivoBook\.gradle\caches\transforms-2\files-2.1\6635395dd800a61c27097b1afc3a129b\jetified-play-services-auth-17.0.0\AndroidManifest.xml:23:9-27:75
+54            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+54-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\ASUS VivoBook\.gradle\caches\transforms-2\files-2.1\6635395dd800a61c27097b1afc3a129b\jetified-play-services-auth-17.0.0\AndroidManifest.xml:24:13-93
+55            android:excludeFromRecents="true"
+55-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\ASUS VivoBook\.gradle\caches\transforms-2\files-2.1\6635395dd800a61c27097b1afc3a129b\jetified-play-services-auth-17.0.0\AndroidManifest.xml:25:13-46
+56            android:exported="false"
+56-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\ASUS VivoBook\.gradle\caches\transforms-2\files-2.1\6635395dd800a61c27097b1afc3a129b\jetified-play-services-auth-17.0.0\AndroidManifest.xml:26:13-37
+57            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+57-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\ASUS VivoBook\.gradle\caches\transforms-2\files-2.1\6635395dd800a61c27097b1afc3a129b\jetified-play-services-auth-17.0.0\AndroidManifest.xml:27:13-72
+58        <!--
+59            Service handling Google Sign-In user revocation. For apps that do not integrate with
+60            Google Sign-In, this service will never be started.
+61        -->
+62        <service
+62-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\ASUS VivoBook\.gradle\caches\transforms-2\files-2.1\6635395dd800a61c27097b1afc3a129b\jetified-play-services-auth-17.0.0\AndroidManifest.xml:33:9-36:110
+63            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+63-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\ASUS VivoBook\.gradle\caches\transforms-2\files-2.1\6635395dd800a61c27097b1afc3a129b\jetified-play-services-auth-17.0.0\AndroidManifest.xml:34:13-89
+64            android:exported="true"
+64-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\ASUS VivoBook\.gradle\caches\transforms-2\files-2.1\6635395dd800a61c27097b1afc3a129b\jetified-play-services-auth-17.0.0\AndroidManifest.xml:35:13-36
+65            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+65-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\ASUS VivoBook\.gradle\caches\transforms-2\files-2.1\6635395dd800a61c27097b1afc3a129b\jetified-play-services-auth-17.0.0\AndroidManifest.xml:36:13-107
+66
+67        <activity
+67-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\ASUS VivoBook\.gradle\caches\transforms-2\files-2.1\bfa69299c70613d916dc093c901431a2\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+68            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+68-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\ASUS VivoBook\.gradle\caches\transforms-2\files-2.1\bfa69299c70613d916dc093c901431a2\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+69            android:exported="false"
+69-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\ASUS VivoBook\.gradle\caches\transforms-2\files-2.1\bfa69299c70613d916dc093c901431a2\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+70            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+70-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\ASUS VivoBook\.gradle\caches\transforms-2\files-2.1\bfa69299c70613d916dc093c901431a2\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+71
+72        <meta-data
+72-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\ASUS VivoBook\.gradle\caches\transforms-2\files-2.1\b5a3f39bf4ddacacabf43b64773b9e83\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+73            android:name="com.google.android.gms.version"
+73-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\ASUS VivoBook\.gradle\caches\transforms-2\files-2.1\b5a3f39bf4ddacacabf43b64773b9e83\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+74            android:value="@integer/google_play_services_version" />
+74-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\ASUS VivoBook\.gradle\caches\transforms-2\files-2.1\b5a3f39bf4ddacacabf43b64773b9e83\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+75    </application>
+76
+77</manifest>
